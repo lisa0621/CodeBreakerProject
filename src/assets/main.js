@@ -12,10 +12,8 @@ function guess() {
     {
         return;
     }
-    else
-    {
-        attempt.value++;
-    }
+
+    attempt.value++;
 }
 
 //implement new functions here
