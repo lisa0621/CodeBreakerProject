@@ -14,9 +14,13 @@ function setHiddenFields() {
         {
             answer = "0"+answer;
         }
-        document.getElementById('answer').value = answer;
+       
    }
+   
    if(attempt == "") {
         attempt = 0;
     }
+
+    document.getElementById('answer').value = answer;
+    document.getElementById('attempt').value = attempt;
 }
