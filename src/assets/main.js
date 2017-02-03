@@ -61,7 +61,7 @@ function getResults(input){
     html += '</div></div>';
     document.getElementById('results').innerHTML += html;
 
-    if(input == result.value)
+    if(input == answer.value)
     {
         return true;
     }
