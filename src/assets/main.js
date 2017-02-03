@@ -60,4 +60,10 @@ function getResults(input){
     }
     html += '</div></div>';
     document.getElementById('results').innerHTML += html;
+
+    if(input == result.value)
+    {
+        return true;
+    }
+    return false;
 }
