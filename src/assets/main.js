@@ -14,7 +14,7 @@ function guess() {
     }
     else
     {
-        attempt = 1;
+        attempt++;
     }
 }
 
