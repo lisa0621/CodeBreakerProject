@@ -40,3 +40,12 @@ function validateInput(input){
         
     return true;
 }
+
+function getResults(){
+    if (!validateInput(input.value))
+    {
+        return false;
+    }
+
+    attempt.value++;
+}
