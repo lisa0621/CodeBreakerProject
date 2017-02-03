@@ -23,7 +23,6 @@ function setHiddenFields() {
     document.getElementById('attempt').value = attempt;  
 }
 
-function setMessage(){
-    let message = document.getElementById('message');
-    message.innerHTML = 'Guesses must be exactly 4 characters long.';
+function setMessage(message){
+    document.getElementById('message').innerHTML = message;
 }
